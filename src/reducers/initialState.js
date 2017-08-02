@@ -1,3 +1,4 @@
-/**
- * Created by Admin on 02.08.2017.
- */
+export default {
+    images: [],
+    videos: []
+}
