@@ -1,3 +1,11 @@
-/**
- * Created by Admin on 02.08.2017.
- */
+import { combineReducers } from 'redux';
+import images from './imageReducer';
+import videos from './videoReducer';
+
+// Combine all reducers to a single reducer function
+const rootReducer = combineReducers({
+    images,
+    videos
+});
+
+export default rootReducer;
